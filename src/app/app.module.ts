@@ -3,8 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { AboutComponent } from './About/about/about.component';
+import { WelcomeComponent } from './Components/Welcome_page/welcome/welcome.component';
+//import { WelcomeComponent } from './welcome/welcome.component';
+//import { AboutComponent } from './About/about/about.component';
+import { AboutComponent } from './Components/About/about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,3 +22,5 @@ import { AboutComponent } from './About/about/about.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

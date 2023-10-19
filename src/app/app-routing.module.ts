@@ -13,13 +13,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
-
-
-
-// const routes: Routes = [
-//   { path: '', component: WelcomeComponent },
-  // Add more routes if needed
-// ];
-
-
